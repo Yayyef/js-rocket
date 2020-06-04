@@ -6,5 +6,5 @@ mirandaKnight = {
     asleep: true,
     wakeUp : fonction () {
         this.asleep = false;
-    }
+    };
 };
