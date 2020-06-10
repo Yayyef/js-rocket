@@ -1,3 +1,17 @@
+var hiHiHi = function () {
+    var currentClassName = document.getElementById('hiHi').className;
+    if (currentClassName == 'hiHi') { 
+        document.getElementById('hiHi').className = 'hiHi altr';
+    } else {
+        document.getElementById('hiHi').className = 'hiHi';
+    }
+}
+
+
+// var hiHiHi = function () {
+//     document.getElementById('hiHi').className= 'hiHi altr';
+// }
+
 mirandaKnight = {
     eyes: 'Blue',
     hair: [

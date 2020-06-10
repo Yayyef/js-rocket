@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+.hiHi {
+    visibility: hidden;
+    background-color: green;
+    /* transition: backgound-color 2000ms; */
+    transition-duration: 2000ms;
+    width: 100px;
+    height: 100px;
+    /* font-weight: 300; */
+    
+}
+
+.hiHi.altr {
+    visibility: visible;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* font-weight: 700;
+    text-transform: uppercase; */
+}
